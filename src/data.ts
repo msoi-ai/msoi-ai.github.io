@@ -2,24 +2,24 @@ const paragraphText = [
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eos ea nostrum, quas molestias autem veniam natus deserunt et obcaecati commodi eveniet illum aliquid quo, voluptate est ipsum idperferendis?",
   "Lorem ipsum dolor sit amet consectetur adipisicing. Culpa, soluta molestiae nihil nam, at ea dolore debitis maxime aliquam adipisci, illum amet pariatur corrupti ipsam delectus repellat quod repudiandae minus?",
   "Lorem ipsum dolor sit amet consectetur. Tempora, nihil quo. Aliquam excepturi quaerat exercitationem reprehenderit, maxime saepe! Nostrum repudiandae, amet culpa iusto recusandae aliquid. Dolor iure saepe nobis fugit.",
-  "Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  "Sign up for more lorem ipsum",
+  "Transforming chaos into clarity with the power of AI - Simplify your data with ease!.",
+  "Sign up for more.",
 ];
 
-const links = ["link 1", "link 2", "link 3"] as const;
+const links = ["About", "Docs", "Contact"] as const;
 
 const heading = [
-  "react tailwind",
-  "information heading",
-  "join us! lorem ipsum",
+  "Make sense of it.",
+  "information",
+  "join us!",
 ] as const;
 
 const text = [
   "sign up",
-  "Nihil et nobis aperiam natus quod quos quisquam quasi earum possimus amet obcaecati excepturi, ratione reprehenderit! Rem, in!",
-  "anonymous",
-  "header logo",
-  "Scott Milliorn",
+  "AI will probably most likely lead to the end of the world, but in the meantime, there'll be great companies.",
+  "Sam Altman",
+  "MSOI",
+  "Aman Gupta",
 ] as const;
 
 const img = [

@@ -1,7 +1,7 @@
 {
-  "name": "landing-page",
+  "name": "msoi",
   "version": "0.1.0",
-  "description": "Template landing page site using React with Tailwind",
+  "description": "Landing page of msoi",
   "keywords": [
     "css",
     "html",
@@ -11,21 +11,21 @@
     "react",
     "tailwind"
   ],
-  "homepage": "http://milliorn.github.io/Landing-Page",
+  "homepage": "https://msoi-ai.github.io",
   "bugs": {
-    "email": "scottmilliorn@gmail.com",
-    "url": "https://github.com/milliorn/Landing-Page/issues"
+    "email": "gabru241@gmail.com",
+    "url": "https://github.com/msoi-ai/msoi-ai.github.io/issues"
   },
   "license": "MIT",
   "author": {
-    "email": "scottmilliorn@gmail.com",
-    "name": "Scott Milliorn",
-    "url": "https://github.com/milliorn"
+    "email": "gabru241@gmail.com",
+    "name": "Aman Gupta",
+    "url": "https://github.com/theguptaji"
   },
   "repository": {
     "repository": {
       "type": "git",
-      "url": "https://github.com/milliorn/React-Tailwind-Landing-Page.git"
+      "url": "https://github.com/msoi-ai/msoi-ai.github.io.git"
     }
   },
   "private": true,
@@ -72,3 +72,4 @@
     "typescript": "^5.0.4"
   }
 }
+
