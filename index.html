@@ -25,7 +25,9 @@
     <link rel="preload" as="style" href="style.css">
     <link rel="stylesheet" href="style.css">
     <!-- TITLE -->
-    <title>Layer: Free Landing Page Template from Uisual</title>
+    <title>Make sense of it.</title>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </head>
   <body>
     <header role="banner" class="ui-section-header">
@@ -62,7 +64,7 @@
               </div>
             </div>
             <!-- IMAGE -->
-            <img src="https://res.cloudinary.com/uisual/image/upload/assets/devices/ipad.png" loading="lazy" alt="#" class="ui-image-half-right">
+            <lottie-player src="./hero.json" background="transparent"  speed="1"  style="width: 400px; height: 400px;" loop autoplay></lottie-player>
           </div>
         </div>
       </section>
@@ -71,48 +73,48 @@
         <div class="ui-layout-container">
           <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
             <!-- IMAGE -->
-            <img src="https://res.cloudinary.com/uisual/image/upload/assets/devices/ipad.png" alt="#" class="ui-image-half-left">
+            <dotlottie-player mode="normal" src="./software.lottie" background="transparent"  speed="1"  style="width: 400px; height: 400px;" loop autoplay></dotlottie-player>
             <!-- FEATURE -->
             <div>
-              <h2>Nice Features</h2>
-              <p class="ui-text-intro">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.</p>
+              <h2>For Developers</h2>
+              <p class="ui-text-intro">Reduce the time and effort required to read huge tutorials. Streamline your code reviews and documentation with automated summaries of technical information.</p>
               <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">Unlimited domain names.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">150&plus; components.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Lifetime updates.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">24/7 technical support.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Minimize errors.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Identify critical information.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Identifying trends</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Improve accuracy</li>
               </ul>
             </div>
           </div>
           <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
             <!-- FEATURE -->
             <div>
-              <h2>Nice Features</h2>
-              <p class="ui-text-intro">Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud exercitation ullamco nisi equi.</p>
+              <h2>For Researchers</h2>
+              <p class="ui-text-intro">Save Time, Reduce Errors, and Discover New Insights.Identify key themes and trends in your research data with ease.</p>
               <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">Unlimited domain names.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">150&plus; components.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Lifetime updates.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">24/7 technical support.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Focus on the relevant information.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Identify key themes</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Reduce the risk of human error</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Collaborate more efficiently</li>
               </ul>
             </div>
             <!-- IMAGE -->
-            <img src="https://res.cloudinary.com/uisual/image/upload/assets/devices/ipad.png" alt="#" class="ui-image-half-right">
+            <dotlottie-player mode="normal" src="./student.lottie" background="transparent"  speed="1"  style="width: 400px; height: 400px;" loop autoplay></dotlottie-player>
           </div>
         </div>
       </section>
       <section class="ui-section-pricing">
         <div class="ui-layout-container">
-          <h2>Fair Prices</h2>
-          <p class="ui-text-intro">Lorem ipsum dolor sit amet.</p>
+          <p class="ui-text-intro">MSOI economy token <b>$SENSE</b></p>
+          <p class="ui-text-intro">Use it to purchase our various plans.</p>
           <!-- TOGGLE -->
-          <input type="radio" name="toggle" id="ui-component-toggle__monthly" checked>
-          <input type="radio" name="toggle" id="ui-component-toggle__yearly">
+          <input type="radio" name="toggle" id="ui-component-toggle__individuals" checked>
+          <input type="radio" name="toggle" id="ui-component-toggle__businesses">
           <div class="ui-component-toggle ui-layout-flex">
-            <label for="ui-component-toggle__monthly" class="ui-component-toggle--label">Billed Monthly</label>
-            <label for="ui-component-toggle__yearly" class="ui-component-toggle--label">Billed Yearly</label>
+            <label for="ui-component-toggle__individuals" class="ui-component-toggle--label">Individuals</label>
+            <label for="ui-component-toggle__businesses" class="ui-component-toggle--label">Businesses</label>
           </div>
-          <p class="ui-text-note"><small>Save 15% with a yearly plan.</small></p>
+          <p class="ui-text-note"><small>$SENSE price may go up, so stack now.</small></p>
           <!-- PRICING -->
           <div class="ui-section-pricing__layout ui-layout-grid ui-layout-grid-3">
             <div class="ui-component-card ui-component-card--pricing">
@@ -120,14 +122,13 @@
               <!-- AMOUNT -->
               <div class="ui-component-card--pricing-price">
                 <span class="ui-component-card--pricing-amount ui-component-card--pricing-amount-1"></span>
-                <span>/</span>
-                <span>month</span>
+                <span>$SENSE</span>
               </div>
-              <span><small>Perfect for early-stage startups.</small></span>
+              <span><small>Perfect for curious minds.</small></span>
               <!-- LIST -->
               <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">1 domain name.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">HTML components.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">5 million words</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Save files on cloud</li>
                 <li class="ui-component-list--item ui-component-list--item-cross">Priority support.</li>
               </ul>
               <!-- CTA -->
@@ -138,14 +139,13 @@
               <!-- AMOUNT -->
               <div class="ui-component-card--pricing-price">
                 <span class="ui-component-card--pricing-amount ui-component-card--pricing-amount-2"></span>
-                <span>/</span>
-                <span>month</span>
+                <span>$SENSE</span>
               </div>
               <span><small>Perfect for early-stage startups.</small></span>
               <!-- LIST -->
               <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">1 domain name.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">HTML components.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">15 million words</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Save files on cloud</li>
                 <li class="ui-component-list--item ui-component-list--item-check">Priority support.</li>
               </ul>
               <!-- CTA -->
@@ -156,14 +156,13 @@
               <!-- AMOUNT -->
               <div class="ui-component-card--pricing-price">
                 <span class="ui-component-card--pricing-amount ui-component-card--pricing-amount-3"></span>
-                <span>/</span>
-                <span>month</span>
+                <span>$SENSE</span>
               </div>
-              <span><small>Perfect for early-stage startups.</small></span>
+              <span><small>Perfect for big firms.</small></span>
               <!-- LIST -->
               <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">1 domain name.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">HTML components.</li>
+                <li class="ui-component-list--item ui-component-list--item-check">25 million words</li>
+                <li class="ui-component-list--item ui-component-list--item-check">Save files on cloud</li>
                 <li class="ui-component-list--item ui-component-list--item-check">Priority support.</li>
               </ul>
               <!-- CTA -->
@@ -171,10 +170,13 @@
             </div>
           </div>
           <!-- NOTE -->
-          <p>Have questions? <a href="#" role="link" aria-label="#">Contact us</a>.</p>
+          <!-- <div class="ui-component-cta ui-layout-flex">
+            <p>Don't have $SENSE? </p> 
+            <a href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Buy $SENSE</a>
+          </div> -->
         </div>
       </section>
-      <section class="ui-section-testimonial">
+      <!-- <section class="ui-section-testimonial">
         <div class="ui-layout-container">
           <div class="ui-section-testimonial__layout ui-layout-grid ui-layout-grid-2">
             <div class="ui-layout-column-4">
@@ -189,16 +191,16 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="ui-section-close">
         <div class="ui-layout-container">
           <div class="ui-layout-column-6 ui-layout-column-center">
-            <h2>Ready to start?</h2>
-            <p class="ui-text-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <h2>Don't have $SENSE?</h2>
+            <p class="ui-text-intro">Contribute to the future of reading.</p>
             <!-- CTA -->
             <div class="ui-component-cta ui-layout-flex">
-              <a href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Get Started for Free</a>
-              <p class="ui-text-note"><small>30 days free trial.</small></p>
+              <a href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Buy $SENSE</a>
+              <p class="ui-text-note"><small>Available on Pancakeswap.</small></p>
             </div>
           </div>
         </div>
@@ -208,7 +210,7 @@
       <div class="ui-layout-container">
         <div class="ui-section-footer__layout ui-layout-flex">
           <!-- COPYRIGHT -->
-          <p class="ui-section-footer--copyright ui-text-note"><small>&copy; 0000 Uisual</small></p>
+          <p class="ui-section-footer--copyright ui-text-note"><small>&copy; MSOI inc.</small></p>
           <!-- MENU -->
           <a href="#" role="link" aria-label="#">
             <svg viewBox="0 0 24 24" height="16" width="16" fill="none" stroke="#AEAEAE" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" aria-label="#">
