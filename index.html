@@ -4,9 +4,9 @@
     <!-- META -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="uisual" content="Made with Uisual (uisual.com)">
-    <meta name="author" content="#">
-    <meta name="description" content="#">
+    <meta name="msoi" content="Made with love">
+    <meta name="author" content="msoi">
+    <meta name="description" content="make sense of it">
     <meta name="referrer" content="unsafe-url">
     <meta name="robots" content="index, follow">
     <!-- SPEED -->
@@ -30,6 +30,34 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </head>
   <body>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="ui-section-hero">    
+            <div class="ui-section-hero__layout ui-layout-grid">
+             <div>
+
+              <div class="ui-layout-flex">
+                <h1>CheckList</h1>
+              </div>
+              <div class="ui-component-cta ui-layout-flex">
+                  <h4>Follow MSOI on Twitter!</h4>
+                  <a href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Twitter</a>
+              </div>
+              <div class="ui-component-cta ui-layout-flex">
+                  <h4>Buy atleast 5$ worth of $SENSE on PancakeSwap!</h4>
+                  <a href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">PancakeSwap</a>
+              </div>
+              <div class="ui-component-cta ui-layout-flex">
+                  <h4>Join us on discord!</h4>
+                  <a href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Discord</a>
+              </div>
+            
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
     <header role="banner" class="ui-section-header">
       <div class="ui-layout-container">
         <div class="ui-section-header__layout ui-layout-flex">
@@ -59,7 +87,7 @@
               <p class="ui-text-intro">Say Goodbye to Cluttered Data and Hello to Actionable Insights</p>
               <!-- CTA -->
               <div class="ui-component-cta ui-layout-flex">
-                <a href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Sign up ...</a>
+                <a id="open-modal-btn" href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Sign up ...</a>
                 <p class="ui-text-note"><small>Airdrop for first 10k users.</small></p>
               </div>
             </div>
@@ -232,5 +260,6 @@
         </div>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
