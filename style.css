@@ -302,10 +302,10 @@ input[name="toggle"] { display: none; }
   padding: .5rem .625rem;
 }
 
-#ui-component-toggle__monthly:checked ~
-div label[for=ui-component-toggle__monthly],
-#ui-component-toggle__yearly:checked ~
-div label[for=ui-component-toggle__yearly] {
+#ui-component-toggle__individuals:checked ~
+div label[for=ui-component-toggle__individuals],
+#ui-component-toggle__businesses:checked ~
+div label[for=ui-component-toggle__businesses] {
   background-color: var(--ui-color-background-primary);
   color: var(--ui-color-typography-body);
 }
@@ -538,20 +538,20 @@ div label[for=ui-component-toggle__yearly] {
 
 /* AMOUNT */
 
-.ui-component-card--pricing-amount-1::before { content: "$5"; }
+.ui-component-card--pricing-amount-1::before { content: "5"; }
 
-#ui-component-toggle__yearly:checked ~ div
-.ui-component-card--pricing-amount-1::before { content: "$3"; }
+#ui-component-toggle__businesses:checked ~ div
+.ui-component-card--pricing-amount-1::before { content: "3"; }
 
-.ui-component-card--pricing-amount-2::before { content: "$15"; }
+.ui-component-card--pricing-amount-2::before { content: "15"; }
 
-#ui-component-toggle__yearly:checked ~ div
-.ui-component-card--pricing-amount-2::before { content: "$13"; }
+#ui-component-toggle__businesses:checked ~ div
+.ui-component-card--pricing-amount-2::before { content: "13"; }
 
-.ui-component-card--pricing-amount-3::before { content: "$25"; }
+.ui-component-card--pricing-amount-3::before { content: "25"; }
 
-#ui-component-toggle__yearly:checked ~ div
-.ui-component-card--pricing-amount-3::before { content: "$23"; }
+#ui-component-toggle__businesses:checked ~ div
+.ui-component-card--pricing-amount-3::before { content: "23"; }
 
 /* LIST */
 
