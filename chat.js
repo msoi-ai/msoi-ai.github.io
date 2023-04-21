@@ -4,7 +4,9 @@ const chatbotResponses = {
     "hi": "Hi there! What can I do for you?",
     "how are you": "I'm a chatbot, so I don't have feelings, but thanks for asking! How can I assist you?",
     "what's your name": "My name is Chatbot. What's yours?",
-    "my name is [name]": "Nice to meet you, [name]!",
+    "my name is [name]": function(name){
+      return `Nice to meet you ${name.charAt(0).toUpperCase() + name.slice(1)}.`;
+    },
     "what time is it": "The current time is " + new Date().toLocaleTimeString(),
     "what's the weather like": "Sorry, I don't have access to weather data right now.",
     "what's the capital of [country]": function(country) {
@@ -59,7 +61,8 @@ const chatbotResponses = {
     var found = 0;
     // Check if the user's message matches a key in the chatbotResponses object
     for (let key in chatbotResponses) {
-        const regex = new RegExp(key.replace("[", "\\[").replace("]", "\\]").replace("/", "\\/"), "gi");
+        const regex = new RegExp(key.replace(/\[[^\]]*\]/g, ''), 'gi');
+
         if (userMessage.match(regex)) {
           // If there's a match, get the response from chatbotResponses
           const chatbotResponse = chatbotResponses[key];
@@ -72,7 +75,7 @@ const chatbotResponses = {
           // If the value is a function, call it and pass any parameters
           else if (typeof chatbotResponse === "function") {
             const matches = userMessage.match(regex);
-            response = chatbotResponse(...matches.slice(1));
+            response = chatbotResponse(userMessage.replace(matches[0], ""));
           }
     
           document.querySelector('.chatbox').innerHTML += '<p><strong>You:</strong> ' + userMessage + '</p><p><strong>MSOI_Bot:</strong> ' + response + '</p>';
